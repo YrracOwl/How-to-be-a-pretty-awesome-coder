@@ -1,0 +1,65 @@
+# 程序员练级攻略
+---
+## 零基础启蒙
+---
+### 入门教程
+#### 入门教程1：体会编程是什么 >> `语言：Python`
+- 体验书籍：[与孩子一起学编程](https://book.douban.com/subject/5338024/) 
+- 在线编程网站：[Codecademy: Learn Python](https://www.codecademy.com/learn/learn-python) 和 [People Can Program](https://www.peoplecanprogram.com/)
+- 在线编程小练习：[CodeAbbey](http://www.codeabbey.com/index/task_list)
+
+#### 入门教程2：做点实用的小东西 >> 一个网页
+- Web官方技术网站：[MDN 的 Web 开发入门](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web)
+
+#### Python 入门
+- [Python编程快速上手](https://book.douban.com/subject/26836700/)：偏文本处理
+- [Python编程：从入门到实践](https://book.douban.com/subject/26829016/)：包含一些 web 项目
+
+如果时间有限，推荐看第二本
+
+#### JavaScript 入门
+- [MDN JavaScript 教程](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
+- [W3School JavaScript 教程](http://www.w3school.com.cn/js/)
+- [JavaScript 全栈教程（廖雪峰）](https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000)
+
+#### 操作系统入门 Linux
+- [Linux教程](https://www.w3cschool.cn/linux/)
+
+#### 编程工具 Visual Studio Code
+- 潜力十足，适用于开发Python，JavaScript，Java，Go，C/C++。（[教程](https://legacy.gitbook.com/book/jeasonstudio/vscode-cn-doc/details)-目前正处于翻译当中）
+
+#### Web 编程入门
+第三次工业革命浪潮中，Web 互联网技术是其中最大的发明，不可错过。
+
+- 前端基础：[HTML Tutorial](https://github.com/nicejade/nice-front-end-tutorial/blob/master/tutorial/html-tutorial.md) 和 [CSS Tutorial](https://github.com/nicejade/nice-front-end-tutorial/blob/master/tutorial/css3-tutorial.md)，理解 DOM 和动态网页（参看 [W3Schools 的 JS HTML DOM 教程](http://www.w3school.com.cn/js/js_htmldom.asp)）
+- 后端基础：为了省事，可以直接用 Python 或者 Node.js。或者试一试 PHP，跟随[W3School 的 PHP 教程](http://www.w3school.com.cn/php/index.asp)。然后以[PHP 官网文档](http://php.net/manual/zh/)为更全的文档来学习或查找相关细节。`左耳朵耗子在这几门语言中，最看好Python，其次PHP，最后是Node.js`
+---
+### 学习要点
+- 学习 HTML 基本语法。
+- 学习 CSS 如何选中 HTML 元素并应用一些基本样式。
+- 学会用 Firefox + Firebug 或 Chrome 查看你觉得很炫的网页结构，并动态修改。
+- 在一台 Linux 机器上配置 LEMP - Ubuntu/Nginx/PHP/MySQL 这个环境。
+- 学习 PHP，让后台 PHP 和前台 HTML 进行数据交互，对服务器相应浏览器请求形成初步认识。实现一个表单提交和反显的功能。
+- 把 PHP 连接本地或者远程数据库 MySQL（MySQL 和 SQL 现学现用够了）。
+---
+### 实践项目
+无论你用 Python，还是 Node.js，还是 PHP，我希望你能做一个非常简单的 Blog 系统，或是 BBS 系统，需要支持如下功能：
+
+- 用户登录和注册（不需密码找回）。
+- 用户发贴（不需要支持富文本，只需要支持纯文本）。
+- 用户评论（不需要支持富文本，只需要支持纯文本）。
+
+你需要从前端一直做到后端，也就是说，从 HTML/CSS/JavaScript，到后面的 PHP（Pythonde.js），再到数据库。这其中需要你查阅很多的知识。  
+
+这里有几个技术点你需要关注一下。
+
+- 用户登录时的密码不应该保存为明文，应该用 MD5+Salt 来保存（关于这个是什么，希望你能自行 Google）。
+- 用户登录后，对于用户自己的贴子可以有 " 重新编辑 " 或 " 删除 " 的功能，但是无权编辑或删除其它用户的贴子。
+- 数据库的设计，你需要三张表：用户表、文章表和评论表，它们之间是怎么关联的，你需要学习一下。这里有个 [PHP 的 blog 教你怎么建表](https://code.tutsplus.com/tutorials/how-to-create-a-phpmysql-powered-forum-from-scratch--net-10188)，你可以 前往一读。
+
+如果你有兴趣，你可以顺着这个小项目，研究一下下面这几个事。  
+
+- 图片验证码。
+- 上传图片。
+- 阻止用户在发文章或评论时输入带 HTML 或 JavaScript 的内容。
+- 防范 SQL 注入。参看[PHP 官方文档](http://php.net/manual/zh/security.database.sql-injection.php) 或 [微软官方文档](https://docs.microsoft.com/zh-cn/sql/relational-databases/security/sql-injection?view=sql-server-2017)，或者你自己 Google 一下。
