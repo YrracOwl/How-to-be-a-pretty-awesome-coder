@@ -6,5 +6,5 @@
 ### 修养篇
 - [程序员修养](https://github.com/YrracOwl/How-to-be-a-pretty-awesome-coder/blob/master/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E5%85%BB.md)
 ### 专业基础篇
-- [编程语言]()
+- [编程语言](https://github.com/YrracOwl/How-to-be-a-pretty-awesome-coder/blob/master/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80.md)
 - 未完待续
