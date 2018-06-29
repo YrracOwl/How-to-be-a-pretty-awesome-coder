@@ -11,4 +11,6 @@
 - [系统知识](https://github.com/YrracOwl/How-to-be-a-pretty-awesome-coder/blob/master/%E7%B3%BB%E7%BB%9F%E7%9F%A5%E8%AF%86.md)
 ### 软件设计篇
 - [软件设计](https://github.com/YrracOwl/How-to-be-a-pretty-awesome-coder/blob/master/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1.md)
+### 高手成长篇
+- [Linux系统、内存和网络（系统底层知识）](https://github.com/YrracOwl/How-to-be-a-pretty-awesome-coder/blob/master/Linux%E7%B3%BB%E7%BB%9F%E3%80%81%E5%86%85%E5%AD%98%E5%92%8C%E7%BD%91%E7%BB%9C%EF%BC%88%E7%B3%BB%E7%BB%9F%E5%BA%95%E5%B1%82%E7%9F%A5%E8%AF%86%EF%BC%89.md)
 - 未完待续
