@@ -9,4 +9,6 @@
 - [编程语言](https://github.com/YrracOwl/How-to-be-a-pretty-awesome-coder/blob/master/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80.md)
 - [理论学科](https://github.com/YrracOwl/How-to-be-a-pretty-awesome-coder/blob/master/%E7%90%86%E8%AE%BA%E5%AD%A6%E7%A7%91.md)
 - [系统知识](https://github.com/YrracOwl/How-to-be-a-pretty-awesome-coder/blob/master/%E7%B3%BB%E7%BB%9F%E7%9F%A5%E8%AF%86.md)
+### 软件设计篇
+- [软件设计](https://github.com/YrracOwl/How-to-be-a-pretty-awesome-coder/blob/master/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1.md)
 - 未完待续
